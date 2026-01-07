@@ -1,0 +1,121 @@
+:root{
+  --yellow:#FFC700;
+  --blue:#0066A6;
+}
+
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+.navbar{
+  background:var(--yellow);
+  padding:18px 0;
+}
+
+/* EXACT CENTERED LAYOUT LIKE ORIGINAL */
+.nav-container{
+  width:94%;
+  margin:auto;
+
+  display:grid;
+  grid-template-columns:1fr auto 1fr auto;
+  align-items:center;
+  column-gap:40px;
+}
+
+/* LEFT + RIGHT MENUS */
+.nav-left,
+.nav-right{
+  list-style:none;
+  display:flex;
+  gap:38px;
+  justify-content:center;
+  font-weight:700;
+  color:var(--blue);
+  letter-spacing:.5px;
+}
+
+/* CENTER LOGO */
+.logo img{
+  height:60px;   /* same as original */
+  display:block;
+}
+
+/* LOGIN BUTTON */
+.login-btn-link{
+  background:var(--blue);
+  color:#fff;
+  padding:10px 30px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:700;
+}
+
+/* ===== AUTH PAGES (same as before) ===== */
+
+.auth-box{
+  width:780px;
+  margin:60px auto;
+  display:flex;
+  border-radius:18px;
+  overflow:hidden;
+  border:1px solid #ddd;
+}
+
+.auth-left{
+  width:40%;
+  background:var(--yellow);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.side-logo{
+  width:120px;
+}
+
+.auth-right{
+  width:60%;
+  padding:35px 40px;
+}
+
+.auth-right h2{
+  color:var(--blue);
+  margin-bottom:18px;
+}
+
+.auth-right input{
+  width:100%;
+  padding:14px;
+  border-radius:10px;
+  border:1px solid #ccc;
+  margin-bottom:12px;
+}
+
+.submit-btn{
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:10px;
+  background:var(--yellow);
+  font-weight:800;
+  cursor:pointer;
+}
+
+.forgot-link{
+  color:var(--blue);
+  font-size:13px;
+}
+
+.switch-text{
+  text-align:center;
+  margin-top:12px;
+}
+
+.switch-text a{
+  color:var(--blue);
+  font-weight:700;
+  text-decoration:none;
+}
