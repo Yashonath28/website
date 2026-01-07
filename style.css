@@ -8,13 +8,13 @@ body{
   font-family:Arial, Helvetica, sans-serif;
 }
 
-/* NAVBAR */
+
 .navbar{
   background:var(--yellow);
   padding:18px 0;
 }
 
-/* EXACT CENTERED LAYOUT LIKE ORIGINAL */
+
 .nav-container{
   width:94%;
   margin:auto;
@@ -25,7 +25,7 @@ body{
   column-gap:40px;
 }
 
-/* LEFT + RIGHT MENUS */
+
 .nav-left,
 .nav-right{
   list-style:none;
@@ -37,13 +37,13 @@ body{
   letter-spacing:.5px;
 }
 
-/* CENTER LOGO */
+
 .logo img{
-  height:60px;   /* same as original */
+  height:60px;   
   display:block;
 }
 
-/* LOGIN BUTTON */
+
 .login-btn-link{
   background:var(--blue);
   color:#fff;
@@ -53,7 +53,6 @@ body{
   font-weight:700;
 }
 
-/* ===== AUTH PAGES (same as before) ===== */
 
 .auth-box{
   width:780px;
